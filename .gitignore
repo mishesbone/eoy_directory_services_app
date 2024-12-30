@@ -1,0 +1,56 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# Virtual Environment
+venv/
+ad_env/
+
+# Node.js
+node_modules/
+
+# Frontend build
+/build
+/dist
+/.next
+/.nuxt
+/out
+
+# Docker
+*.log
+docker-compose.override.yml
+docker-compose.override.prod.yml
+*.swp
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.cache
+
+# coverage.py
+.coverage
+.coverage.*
+*.hypothesis/
+
+# .env files for sensitive information
+.env
+.env.*
