@@ -1,6 +1,4 @@
-Here’s a template for the `README.md` file for your main project directory located at `C:\Users\CSO-II\Documents\mishes projects\active_directory\README.md`. This file should give an overview of the project, how to set it up, and other important details:
 
-```markdown
 # eOY Directory Services
 
 ## Project Overview
@@ -37,35 +35,6 @@ The system is composed of the following components:
 
 Here is the general structure of the project:
 
-```
-eoy_directory_services_app/
-│
-├── backend/
-│   ├── api/
-│   ├── services/
-│   ├── config/
-│   ├── tests/
-│   ├── main.py
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── docs/
-│   ├── api-docs/
-│   ├── architecture.md
-│   └── compliance.md
-│
-├── docker/
-│   ├── backend.Dockerfile
-│   ├── frontend.Dockerfile
-│   └── docker-compose.yml
-│
-├── LICENSE
-└── README.md
-```
 
 ## Installation and Setup
 
@@ -77,51 +46,50 @@ eoy_directory_services_app/
    ```
 
 2. Navigate to the backend directory:
-   ```bash
+  
    cd eoy_directory_services_app/backend
-   ```
+
 
 3. Create a virtual environment:
-   ```bash
+   
    python -m venv ad_env
-   ```
+
 
 4. Activate the virtual environment:
    - On Windows:
-     ```bash
+   
      .\ad_env\Scripts\activate
-     ```
+
    - On macOS/Linux:
-     ```bash
+   
      source ad_env/bin/activate
-     ```
+   
 
 5. Install the required dependencies:
-   ```bash
+
    pip install -r requirements.txt
-   ```
+
 
 6. Run the backend server:
-   ```bash
+   
    python main.py
-   ```
-
+  
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
-   ```bash
+
    cd ../frontend
-   ```
+  
 
 2. Install Node.js dependencies:
-   ```bash
+  
    npm install
-   ```
+
 
 3. Start the frontend:
-   ```bash
+   
    npm start
-   ```
+ 
 
 ## Running with Docker
 
@@ -130,10 +98,9 @@ To deploy the entire application using Docker, follow these steps:
 1. Make sure Docker is installed on your machine.
 
 2. From the root directory, run:
-   ```bash
+  
    docker-compose up --build
-   ```
-   This command will build and run the backend and frontend containers.
+
 
 3. Access the application:
    - Backend API: `http://localhost:5000`
@@ -169,7 +136,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries or support, please contact:
 - **Name**: Fwangshak Sabar Mishwatts
 - **Email**: itsmishesbone@gmail.com
-```
+
 
 ### Key Sections of the README:
 
